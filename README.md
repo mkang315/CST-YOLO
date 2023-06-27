@@ -27,6 +27,16 @@ python test.py --data data/cbc.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65
 ## Evaluation
 We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset).
 
+## Suggested Citation
+Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
+> Plain Text
+
+- *Nature* Style</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer. arXiv preprint arXiv:2306.14590v1 [cs.CV] (2023).</br>
+
+- *IEEE* Style</br>
+M. Kang, C.-M. Ting, F. F. Ting, and R. Phan, "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection," arXiv:2306.14590v1 [cs.CV], Jun. 2023.</br>
+
 ## License
 CST-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/CST-YOLO/blob/main/LICENSE) file for more information.
 
