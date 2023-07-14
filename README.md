@@ -39,7 +39,7 @@ Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. Cst-yolo: A novel method for
 
 - Springer *LNCS* Style</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W.: CST-YOLO: a novel method for blood cell detection based on improved yolov7 and cnn-swin transformer. arXiv preprint arXiv:2306.14590 (2023).</br>
-<sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS and use the LNCS citation style. LNCS stands for Lecture Notes in Computer Science.</sup>
+<sup>**NOTE:** LNCS stands for Lecture Notes in Computer Science.</sup>
 
 ## License
 CST-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/CST-YOLO/blob/main/LICENSE) file for more information.
