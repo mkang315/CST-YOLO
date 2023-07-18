@@ -38,7 +38,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method fo
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. Preprint at https://arxiv.org/abs/2306.14590 (2023).</br>
 
 - Springer *LNCS* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. arXiv preprint arXiv:2306.14590 (2023)</br>
+Kang, M., Ting, C.-M., Ting, F. F., Phan, R. C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. arXiv preprint arXiv:2306.14590 (2023)</br>
 <sup>**NOTE:** LNCS stands for Lecture Notes in Computer Science.</sup>
 
 ## License
