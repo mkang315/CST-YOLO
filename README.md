@@ -50,5 +50,5 @@ Kang, M., Ting, C.-M., Ting, F. F., Phan, R.C.-W.: CST-YOLO: a novel method for 
 ## License
 CST-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/CST-YOLO/blob/main/LICENSE) file for more information.
 
-## Acknowledgement
+## Copyright Notice
 Many utility codes of our project reference the codes of [YOLOv7](https://github.com/WongKinYiu/yolov7) and [Swin Transformer](https://github.com/microsoft/Swin-Transformer) repositories.
