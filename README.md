@@ -55,12 +55,12 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 <br />
 | Dataset | Method | WBC | RBC | Platelets| Overall |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| <br/>                                            | w/o CST     | 0 | 37 | 364 |
-| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | w/o W-ELAN  | 0 | 37 | 364 |
-| <br/>                                            | w/o MCS     | 0 | 37 | 364 |
-| <br/>                                            | w/o MaxPool | 0 | 37 | 364 |
-| [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 |
-| [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 |
+| <br/>                                            | w/o CST     | 0 | 37 | 364 | 364 |
+| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | w/o W-ELAN  | 0 | 37 | 364 | 364 |
+| <br/>                                            | w/o MCS     | 0 | 37 | 364 | 364 |
+| <br/>                                            | w/o MaxPool | 0 | 37 | 364 | 364 |
+| [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 | 364 |
+| [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 | 364 |
 
 ## Visualization
 
