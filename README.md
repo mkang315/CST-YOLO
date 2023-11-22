@@ -34,6 +34,25 @@ python test.py --data data/cbc.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65
 ## Evaluation
 We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset).
 
+<br />
+**Table 1&nbsp;&nbsp;&nbsp;&nbsp;Number of examples in BCCD, CBC, and BCD.** 
+| Dataset | Training | Validation | Testing | Total |
+| :--------: | :-------: | :-------: | :-------: | :-------: |
+| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | 327 | 0 | 37 | 364 |
+| [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 |
+| [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 |
+
+<br />
+[Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset)
+<br />
+**Table 2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for blood cell detection. Results are APs for each blood cell
+type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+| Dataset | Model | WBC | RBC | AP<sub>50</sub> | AP<sub>50:95</sub> | GFLOPs | FPS |
+| :--------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+| [YOLO5x-L](https://github.com/meituan/YOLOv6) | 59.6M | 0.907 | 0.920 | 0.929 | 0.709 | 150.5 | 64.0 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 36.9M | 0.912 | 0.925 | 0.936 | 0.723 | 103.3 | 71.4 |
+| [YOLOv8l](https://github.com/ultralytics/ultralytics) | 43.9M | 0.934 | 0.920 | 0.944 | **0.729** | 164.8 | 76.2 |
+| **RCS-YOLO** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | **94.5** | **114.8** |
 
 ## Ablation Study
 
