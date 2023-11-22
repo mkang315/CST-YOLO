@@ -46,10 +46,10 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Dataset | Model | WBC | RBC | Platelets | Overall |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-|                                                  | [DETR](https://github.com/meituan/YOLOv6) | 0.907 | 0.920 | 0.929 | 0.709 | 150.5 | 64.0 |
-| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | [YOLOv5x](https://github.com/U/yolov5) | 0.912 | 0.925 | 0.936 | 0.723 | 103.3 | 71.4 |
-|                                                  | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 43.9M | 0.934 | 0.920 | 0.944 | **0.729** | 164.8 | 76.2 |
-|                                                  | **CST-YOLO** | 45.7M | **0.936** | **0.945** | **0.946** | **0.729** | **94.5** | **114.8** |
+|                                                  | [DETR](https://github.com/facebookresearch/detr) | 0.907 | 0.920 | 0.929 | 0.709 |
+| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.912 | 0.925 | 0.936 | 0.723 |
+|                                                  | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 43.9M | 0.934 | 0.920 | 0.944 | **0.729** |
+|                                                  | **CST-YOLO** | **0.936** | **0.945** | **0.946** | **0.729** |
 
 ## Ablation Study
 <br />
