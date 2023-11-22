@@ -48,10 +48,10 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 <br /> 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | 0. | 0. | 0. | 0. |
-| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0. | 0. | 0. | 0. |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0. | 0. | 0. | 0. |
-| **CST-YOLO** | 0. | 0. | 0. | 0. |
+| [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
+| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
+| **CST-YOLO** | 0.9 | 0.9 | 0.9 | 0.9 |
 
 ## Ablation Study
 <br />
