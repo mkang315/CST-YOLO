@@ -45,15 +45,16 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 
 **Table 2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for blood cell detection. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
-| Model | WBC | RBC | Platelets | Overall |
-| :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
-| **CST-YOLO | 0.9 | 0.9 | 0.9 | 0.9 |
+| Dataset | Model | WBC | RBC | Platelets | Overall |
+| :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+| | [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
+| | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
+| | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
+| | **CST-YOLO | 0.9 | 0.9 | 0.9 | 0.9 |
 
 ## Ablation Study
-<br />
+We
+
 **Table 3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs for each blood cell type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Dataset | Method | WBC | RBC | Platelets| Overall |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: |
