@@ -41,9 +41,8 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 | [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 |
 | [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 |
 
-<br />
- [BCCD](https://github.com/Shenggan/BCCD_Dataset)
 <br /> 
+
 **Table 2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for blood cell detection. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
