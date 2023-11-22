@@ -46,23 +46,25 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Dataset | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-|           | [DETR](https://github.com/facebookresearch/detr) | 0. | 0. | 0. | 0. |
+| <img> | [DETR](https://github.com/facebookresearch/detr) | 0. | 0. | 0. | 0. |
 | [BCCD](https://github.com/Shenggan/BCCD_Dataset) | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0. | 0. | 0. | 0. |
-|           | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0. | 0. | 0. | **0.729** |
-|           | **CST-YOLO** | **0.936** | **0.945** | **0.946** | **0.729** |
+| <img>| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0. | 0. | 0. | **0.729** |
+| <img> | **CST-YOLO** | **0.936** | **0.945** | **0.946** | **0.729** |
 
 ## Ablation Study
 <br />
+**Table 3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs for each blood cell type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Dataset | Method | WBC | RBC | Platelets| Overall |
 | :--------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | &nbsp; | w/o CST | 0 | 37 | 364 | 364 |
 | [BCCD](https://github.com/Shenggan/BCCD_Dataset) | w/o W-ELAN | 0 | 37 | 364 | 364 |
 | &nbsp; | w/o MCS | 0 | 37 | 364 | 364 |
 | &nbsp; | w/o MaxPool | 0 | 37 | 364 | 364 |
-| [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 | 364 |
-| [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 | 364 |
+| [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | w/o W-ELAN | 0 | 60 | 360 | 364 |
+| [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | w/o W-ELAN | 73 | 36 | 364 | 364 |
 
 ## Visualization
+The heat maps of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
 
 ## Suggested Citation
 Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
