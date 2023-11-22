@@ -65,6 +65,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 
 ## Visualization
 The heat maps of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
+![Image](src)
 
 ## Suggested Citation
 Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
