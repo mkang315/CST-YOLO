@@ -102,8 +102,8 @@ The below Tables show the effect on the performance of the proposed modules for 
 The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of one blood cell image from the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below. The first image is the blood cell image (BloodImage_00261.jpg) from the test set input to detect. The three Grad-CAM heat maps respectively emphasize the objects in different classes: platelets, WBCs, and RBCs in the blood cell image, and de-emphasize the other two classes. Overall, we have a much more precise region of emphasis that locates the different types of blood cell. We know that the model classifies this input image due to its intrinsic features, not a general region in the image.</br>
 ![Input](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00261.jpg)</br>
 ![Platelets](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/Platelets.png)</br>
-![WBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/RBCs.png)</br>
-![RBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/WBCs.png)
+![WBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/WBCs.png)</br>
+![RBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/RBCs.png)
 
 ## Suggested Citation
 Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
