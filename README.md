@@ -4,7 +4,7 @@ This is the source code for the paper, "CST-YOLO: A Novel Method for Blood Cell 
 ## Model
 The model configuration (i.e., network construction) file is cst-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/CST-YOLO/tree/main/cfg/training).
 
-Recommended running dependencies:
+Recommended dependencies:
 ```
 Python <= 3.8
 Torch <= 1.7.1
