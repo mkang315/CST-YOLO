@@ -92,10 +92,10 @@ We
 **Table 3.3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| w/o CST | 0 | 37 | 364 | 364 |
-| w/o W-ELAN | 0 | 37 | 364 | 364 |
-| w/o MCS | 0 | 37 | 364 | 364 |
-| w/o MaxPool | 0 | 37 | 364 | 364 |
+| w/o CST | 0.975 | 0.860 | 0.869 | 0.901 |
+| w/o W-ELAN | 0.980 | 0.851 | 0.924 | 0.918 |
+| w/o MCS | 0.973 | 0.878 | 0.857 | 0.903 |
+| w/o MaxPool | 0.975 | 0.827 | 0.849 | 0.884 |
 
 
 ## Visualization
