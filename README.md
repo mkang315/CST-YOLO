@@ -71,7 +71,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 | **CST-YOLO** | **0.899** | **0.857** | **0.978** | **0.911** |
 
 ## Ablation Study
-We
+The below Tables show the effect on the performance of the proposed modules for the three blood cell datasets.
 
 **Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
@@ -99,10 +99,10 @@ We
 
 
 ## Visual Illustrations
-The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of one blood cell image from the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below. The first image is the blood cell image (BloodImage_00261.jpg) from the test set input to detect. The three Grad-CAM heat maps respectively emphasize the objects in different classes: platelets, WBCs, and RBCs in the blood cell image, and de-emphasize the other two classes. Overall, we have a much more precise region of emphasis that locates the different types of blood cell. We know that the model classifies this input image due to its intrinsic features, not a general region in the image.
-![Input](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00261.jpg)
-![Platelets](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/Platelets.png)
-![WBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/RBCs.png)
+The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of one blood cell image from the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below. The first image is the blood cell image (BloodImage_00261.jpg) from the test set input to detect. The three Grad-CAM heat maps respectively emphasize the objects in different classes: platelets, WBCs, and RBCs in the blood cell image, and de-emphasize the other two classes. Overall, we have a much more precise region of emphasis that locates the different types of blood cell. We know that the model classifies this input image due to its intrinsic features, not a general region in the image.</br>
+![Input](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00261.jpg)</br>
+![Platelets](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/Platelets.png)</br>
+![WBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/RBCs.png)</br>
 ![RBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/WBCs.png)
 
 ## Suggested Citation
