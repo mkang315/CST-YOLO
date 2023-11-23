@@ -71,7 +71,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 | **CST-YOLO** | **0.899** | **0.857** | **0.978** | **0.911** |
 
 ## Ablation Study
-The below Tables show the effect on the performance of the proposed modules for the three blood cell datasets.
+The Tables below show the effect on the performance of the proposed modules for the three blood cell datasets.
 
 **Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
