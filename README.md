@@ -100,7 +100,7 @@ We
 
 ## Visual Illustrations
 The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
-![Image](src)
+![Input](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00261.jpg)
 
 ## Suggested Citation
 Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
