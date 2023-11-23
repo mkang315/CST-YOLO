@@ -99,7 +99,7 @@ We
 
 
 ## Visualization
-The heat maps of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
+The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
 ![Image](src)
 
 ## Suggested Citation
