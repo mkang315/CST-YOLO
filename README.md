@@ -57,18 +57,18 @@ type and mAP@0.5 for overall performance. DETR only prints average precision. Th
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [DETR](https://github.com/facebookresearch/detr) | —— | —— | 0.9 | 0.9 |
-| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
-| **CST-YOLO** | 0.9 | 0.9 | 0.9 | 0.9 |
+| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.995 | 0.930 | **0.942** | 0.955 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.995 | 0.917 | 0.912 | 0.941 |
+| **CST-YOLO** | 0.995 | **0.947** | 0.927 | **0.956** |
 
 **Table 2-3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCD. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
-| **CST-YOLO** | 0.9 | 0.9 | 0.9 | 0.9 |
+| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.820 | 0.857 | 0.975 | 0.884 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.874 | 0.785 | 0.974 | 0.878 |
+| **CST-YOLO** | **0.899** | **0.857** | **0.978** | **0.911** |
 
 ## Ablation Study
 We
