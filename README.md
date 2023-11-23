@@ -98,7 +98,7 @@ We
 | w/o MaxPool | 0.975 | 0.827 | 0.849 | 0.884 |
 
 
-## Visualization
+## Visual Illustrations
 The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of some blood cell images in the [BCCD](https://github.com/Shenggan/BCCD_Dataset) dataset are shown below.
 ![Image](src)
 
