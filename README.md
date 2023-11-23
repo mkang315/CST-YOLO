@@ -73,7 +73,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 ## Ablation Study
 We
 
-**Table 3-1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs for BCCD and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 3-1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0 | 37 | 364 | 364 |
@@ -81,7 +81,7 @@ We
 | w/o MCS | 0 | 37 | 364 | 364 |
 | w/o MaxPool | 0 | 37 | 364 | 364 |
 
-**Table 3-2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs for CBC and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 3-2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for CBC. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0 | 37 | 364 | 364 |
@@ -89,7 +89,7 @@ We
 | w/o MCS | 0 | 37 | 364 | 364 |
 | w/o MaxPool | 0 | 37 | 364 | 364 |
 
-**Table 3-3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs for BCD and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 3-3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0 | 37 | 364 | 364 |
