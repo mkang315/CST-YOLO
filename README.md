@@ -4,7 +4,7 @@ This is the source code for the paper, "CST-YOLO: A Novel Method for Blood Cell 
 ## Model
 The model configuration (i.e., network construction) file is cst-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/CST-YOLO/tree/main/cfg/training).
 
-Recommended running environment:
+Recommended running dependencies:
 ```
 Python <= 3.8
 Torch <= 1.7.1
@@ -44,19 +44,19 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 <br /> 
 
 **Table 2-1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCCD. Results are APs for each blood cell
-type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+type and mAP@0.5 for overall performance. DETR only prints average precision. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
-| **CST-YOLO** | 0.9 | 0.9 | 0.9 | 0.9 |
+| [DETR](https://github.com/facebookresearch/detr) | —— | —— | 0.9 | 0.9 |
+| [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.977 | **0.877** | 0.915 | 0.923 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.9 |
+| **CST-YOLO** | **0.984** | 0.869 | **0.928** | **0.927** |
 
 **Table 2-2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for CBC. Results are APs for each blood cell
-type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+type and mAP@0.5 for overall performance. DETR only prints average precision. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
+| [DETR](https://github.com/facebookresearch/detr) | —— | —— | 0.9 | 0.9 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.9 | 0.9 | 0.9 | 0.9 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.9 | 0.9 | 0.9 | 0.9 |
 | **CST-YOLO** | 0.9 | 0.9 | 0.9 | 0.9 |
