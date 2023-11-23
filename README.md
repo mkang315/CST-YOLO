@@ -43,29 +43,29 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 
 <br /> 
 
-**Table 2-1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCCD. Results are APs for each blood cell
+**Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCCD. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. DETR only prints average precision. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | —— | —— | 0.9 | 0.9 |
+| [DETR](https://github.com/facebookresearch/detr) | — | — | 0.9 | 0.9 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.977 | **0.877** | 0.915 | 0.923 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.9 |
 | **CST-YOLO** | **0.984** | 0.869 | **0.928** | **0.927** |
 
-**Table 2-2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for CBC. Results are APs for each blood cell
+**Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for CBC. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. DETR only prints average precision. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | —— | —— | 0.9 | 0.9 |
+| [DETR](https://github.com/facebookresearch/detr) | — | — | 0.9 | 0.9 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.995 | 0.930 | **0.942** | 0.955 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.995 | 0.917 | 0.912 | 0.941 |
 | **CST-YOLO** | 0.995 | **0.947** | 0.927 | **0.956** |
 
-**Table 2-3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCD. Results are APs for each blood cell
+**Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCD. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| [DETR](https://github.com/facebookresearch/detr) | 0.9 | 0.9 | 0.9 | 0.9 |
+| [DETR](https://github.com/facebookresearch/detr) | — | — | 0.9 | 0.9 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.820 | 0.857 | 0.975 | 0.884 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.874 | 0.785 | 0.974 | 0.878 |
 | **CST-YOLO** | **0.899** | **0.857** | **0.978** | **0.911** |
@@ -73,7 +73,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 ## Ablation Study
 We
 
-**Table 3-1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
+**Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0 | 37 | 364 | 364 |
@@ -81,7 +81,7 @@ We
 | w/o MCS | 0 | 37 | 364 | 364 |
 | w/o MaxPool | 0 | 37 | 364 | 364 |
 
-**Table 3-2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for CBC. The best results are shown in bold.** 
+**Table 3.2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for CBC. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.999 | 0.944 | 0.923 | 0.955 |
@@ -89,7 +89,7 @@ We
 | w/o MCS | 0.998 | 0.954 | 0.868 | 0.940 |
 | w/o MaxPool | 0.999 | 0.920 | 0.938 | 0.952 |
 
-**Table 3-3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCD. The best results are shown in bold.** 
+**Table 3.3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCD. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0 | 37 | 364 | 364 |
