@@ -32,12 +32,12 @@ python test.py --data data/cbc.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65
 ```
 
 ## Evaluation
-We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The samples of the validation set duplicates part of those of the training set in CBC dataset. 
+We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The 60 samples of the validation set duplicate those from the training set in CBC dataset. 
 
 **Table 1&nbsp;&nbsp;&nbsp;&nbsp;Number of examples in BCCD, CBC, and BCD.** 
 | Dataset | Training | Validation | Testing | Total |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
-| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | 327 | 0 | 37 | 364 |
+| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | 205 | 87 | 72 | 364 |
 | [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 |
 | [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 |
 
