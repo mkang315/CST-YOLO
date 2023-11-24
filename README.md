@@ -105,7 +105,7 @@ The heat maps via [Grad-CAM](https://github.com/ramprs/grad-cam) of one blood ce
 ![WBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/WBCs.png)</br>
 ![RBCs](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/RBCs.png)</br>
 </br>
-BloodImage_00340.jpg is one example of failure cases because there isn't any Grad-CAM heatmaps solely generated for platelets. The ability of dim object detection will be enhanced for future improvements.
+BloodImage_00340.jpg is one example of failure cases because there isn't any Grad-CAM heatmaps solely generated for platelets. The model ability of dim object detection need be enhanced for future improvements.
 ![failurecase](https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00340.jpg)</br>
 
 ## Suggested Citation
