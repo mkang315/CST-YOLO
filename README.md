@@ -112,7 +112,7 @@ Fig. 1 The original blood cell image and its Grad-CAM heat maps. Input (a) Blood
 BloodImage_00340.jpg is one example of failure cases because there aren't any Grad-CAM heatmaps solely generated for platelets. The model ability of dim object detection need be enhanced for future improvements.
 <p float="left">
 <img src="https://github.com/mkang315/CST-YOLO/blob/main/heatmaps/BloodImage_00340.jpg" alt="BloodImage_00340" width="200" align="middle" />
-<figcaption>**Fig. 2 The original blood cell image BloodImage_00340.jpg.**</figcaption>
+<figcaption><b>Fig. 2 The original blood cell image BloodImage_00340.jpg.</b></figcaption>
 </p>
 
 ## Suggested Citation
