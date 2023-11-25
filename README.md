@@ -98,7 +98,7 @@ The tables below show the effect on the performance of the proposed modules for 
 | w/o MaxPool | 0.975 | 0.827 | 0.849 | 0.884 |
 
 ## Generalizability Analysis
-Table 4 compares the performance betwwen the original YOLOv7 and CST-YOLO on the [TinyPerson dataset](https://github.com/ucas-vg/PointTinyBenchmark/tree/TinyBenchmark) in different domain from medical images. The experimental results demonstrate the effectivenss of CST-YOLO in small object detection on both medical (i.e., blood cell) and natural (i.e., tiny person) images.
+Table 4 compares the performance betwwen the original YOLOv7 and CST-YOLO on the [TinyPerson dataset](https://github.com/ucas-vg/PointTinyBenchmark/tree/TinyBenchmark) in different domain from medical images. The experimental results demonstrate the generalizability effectivenss of CST-YOLO in small object detection on both medical (i.e., blood cell) and natural (i.e., tiny person) images.
 
 **Table 4&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv7 and CST-YOLO for all classes of the TinyPerson dataset. The best results are shown in bold.**
 | Model | Precision | Recall | mAP<sub>50</sub> | mAP<sub>50:95</sub> |
