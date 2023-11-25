@@ -32,7 +32,7 @@ python test.py --data data/cbc.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65
 ```
 
 ## Evaluation
-We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The 60 samples of the validation set duplicate those from the training set in the CBC dataset. Each image includes Red Blood Cells (RBCs), White Blood Cells (WBCs), and platelets.
+We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The 60 samples of the validation set duplicate those from the training set in the CBC dataset. Each image includes three types of blood cells: Red Blood Cells (RBCs), White Blood Cells (WBCs), and platelets.
 
 **Table 1&nbsp;&nbsp;&nbsp;&nbsp;Number of examples in BCCD, CBC, and BCD.** 
 | Dataset | Training | Validation | Testing | Total |
