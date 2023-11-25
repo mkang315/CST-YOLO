@@ -43,7 +43,7 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 
 <br /> 
 
-**Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCCD. Results are APs for each blood cell
+**Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCCD dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. RT-DETR only prints average precision and average recall. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
@@ -52,7 +52,7 @@ type and mAP@0.5 for overall performance. RT-DETR only prints average precision 
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.9 |
 | **CST-YOLO** | **0.984** | 0.869 | **0.928** | **0.927** |
 
-**Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for CBC. Results are APs for each blood cell
+**Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the CBC dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. RT-DETR only prints average precision and average recall. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
@@ -61,7 +61,7 @@ type and mAP@0.5 for overall performance. RT-DETR only prints average precision 
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.995 | 0.917 | 0.912 | 0.941 |
 | **CST-YOLO** | 0.995 | **0.947** | 0.927 | **0.956** |
 
-**Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO for BCD. Results are APs for each blood cell
+**Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCD dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. RT-DETR only prints average precision and average recall. The best results are shown in bold.** 
 | Model | WBC | RBC | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
@@ -73,7 +73,7 @@ type and mAP@0.5 for overall performance. RT-DETR only prints average precision 
 ## Ablation Study
 The tables below show the effect on the performance of the proposed modules for the three blood cell datasets.
 
-**Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCCD. The best results are shown in bold.** 
+**Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the BCCD dataset. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.849 | 0.841 | 0.990 | 0.894 |
@@ -81,7 +81,7 @@ The tables below show the effect on the performance of the proposed modules for 
 | w/o MCS | 0.762 | 1.000 | 0.987 | 0.910 |
 | w/o MaxPool | 0.856 | 0.806 | 0.991 | 0.884 |
 
-**Table 3.2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for CBC. The best results are shown in bold.** 
+**Table 3.2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the CBC dataset. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.999 | 0.944 | 0.923 | 0.955 |
@@ -89,7 +89,7 @@ The tables below show the effect on the performance of the proposed modules for 
 | w/o MCS | 0.998 | 0.954 | 0.868 | 0.940 |
 | w/o MaxPool | 0.999 | 0.920 | 0.938 | 0.952 |
 
-**Table 3.3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 for BCD. The best results are shown in bold.** 
+**Table 3.3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the BCD dataset. The best results are shown in bold.** 
 | Method | WBC | RBC | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.975 | 0.860 | 0.869 | 0.901 |
