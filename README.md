@@ -32,7 +32,7 @@ python test.py --data data/cbc.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65
 ```
 
 ## Evaluation
-We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The 60 samples of the validation set duplicate those from the training set in the CBC dataset. 
+We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood Cell Count and Detection (BCCD)](https://github.com/Shenggan/BCCD_Dataset), [Complete Blood Count (CBC)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset), and [Blood Cell Detection (BCD)](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset). The 60 samples of the validation set duplicate those from the training set in the CBC dataset. Each image includes Red Blood Cells (RBCs), White Blood Cells (WBCs), and platelets.
 
 **Table 1&nbsp;&nbsp;&nbsp;&nbsp;Number of examples in BCCD, CBC, and BCD.** 
 | Dataset | Training | Validation | Testing | Total |
@@ -45,7 +45,7 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 
 **Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCCD dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
-| Model | WBC | RBC | Platelets | Overall |
+| Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.875 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.977 | **0.877** | 0.915 | 0.923 |
@@ -54,7 +54,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 
 **Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the CBC dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
-| Model | WBC | RBC | Platelets | Overall |
+| Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.855 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.995 | 0.930 | **0.942** | 0.955 |
@@ -63,7 +63,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 
 **Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCD dataset. Results are APs for each blood cell
 type and mAP@0.5 for overall performance. The best results are shown in bold.** 
-| Model | WBC | RBC | Platelets | Overall |
+| Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.784 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.820 | 0.857 | 0.975 | 0.884 |
@@ -74,7 +74,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 The tables below show the effect on the performance of the proposed modules for the three blood cell datasets.
 
 **Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the BCCD dataset. The best results are shown in bold.** 
-| Method | WBC | RBC | Platelets| Overall |
+| Method | WBCs | RBCs | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.849 | 0.841 | 0.990 | 0.894 |
 | w/o W-ELAN | 0.866 | 0.860 | 0.987 | 0.904 |
@@ -82,7 +82,7 @@ The tables below show the effect on the performance of the proposed modules for 
 | w/o MaxPool | 0.856 | 0.806 | 0.991 | 0.884 |
 
 **Table 3.2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the CBC dataset. The best results are shown in bold.** 
-| Method | WBC | RBC | Platelets| Overall |
+| Method | WBCs | RBCs | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.999 | 0.944 | 0.923 | 0.955 |
 | w/o W-ELAN | 0.995 | 0.954 | 0.910 | 0.953 |
@@ -90,7 +90,7 @@ The tables below show the effect on the performance of the proposed modules for 
 | w/o MaxPool | 0.999 | 0.920 | 0.938 | 0.952 |
 
 **Table 3.3&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the BCD dataset. The best results are shown in bold.** 
-| Method | WBC | RBC | Platelets| Overall |
+| Method | WBCs | RBCs | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | w/o CST | 0.975 | 0.860 | 0.869 | 0.901 |
 | w/o W-ELAN | 0.980 | 0.851 | 0.924 | 0.918 |
