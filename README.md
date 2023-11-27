@@ -49,7 +49,7 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.875 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.977 | **0.877** | 0.915 | 0.923 |
-| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.9 |
+| [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.896 |
 | **CST-YOLO** | **0.984** | 0.869 | **0.928** | **0.927** |
 
 **Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the CBC dataset. Results are APs for each blood cell
