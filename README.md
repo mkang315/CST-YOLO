@@ -37,7 +37,7 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 **Table 1&nbsp;&nbsp;&nbsp;&nbsp;Number of examples in BCCD, CBC, and BCD.** 
 | Dataset | Training | Validation | Testing | Total |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
-| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | 327 | 0 | 37 | 364 |
+| [BCCD](https://github.com/Shenggan/BCCD_Dataset) | 205 | 87 | 72 | 364 |
 | [CBC](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset) | 300 | 0 | 60 | 360 |
 | [BCD](https://www.kaggle.com/datasets/adhoppin/blood-cell-detection-datatset) | 255 | 73 | 36 | 364 |
 
