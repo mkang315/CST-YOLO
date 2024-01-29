@@ -76,10 +76,10 @@ The tables below show the effect on the performance of the proposed modules for 
 **Table 3.1&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the BCCD dataset. The best results are shown in bold.** 
 | Method | WBCs | RBCs | Platelets| Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| w/o CST | 0.849 | 0.841 | 0.990 | 0.894 |
+| w/o CST | 0.849 | 0.841 | 0.900 | 0.894 |
 | w/o W-ELAN | 0.866 | 0.860 | 0.987 | 0.904 |
 | w/o MCS | 0.762 | 1.000 | 0.987 | 0.910 |
-| w/o MaxPool | 0.856 | 0.806 | 0.991 | 0.884 |
+| w/o MaxPool | 0.856 | 0.806 | 0.901 | 0.899 |
 
 **Table 3.2&nbsp;&nbsp;&nbsp;&nbsp;Abation study of the proposed modules. Results are APs and mAP@0.5 on the CBC dataset. The best results are shown in bold.** 
 | Method | WBCs | RBCs | Platelets| Overall |
