@@ -43,8 +43,8 @@ We trained and evaluated CST-YOLO on three blood cell detection datasets [Blood 
 
 <br /> 
 
-**Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCCD dataset. Results are APs for each blood cell
-type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 2.1&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCCD dataset. Results are mAP@0.5 for each blood cell
+type and overall performance. The best results are shown in bold.** 
 | Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.875 |
@@ -52,8 +52,8 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.977 | 0.829 | 0.883 | 0.896 |
 | **CST-YOLO** | **0.984** | 0.869 | **0.928** | **0.927** |
 
-**Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the CBC dataset. Results are APs for each blood cell
-type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 2.2&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the CBC dataset. Results are mAP@0.5 for each blood cell
+type and overall performance. The best results are shown in bold.** 
 | Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.855 |
@@ -61,8 +61,8 @@ type and mAP@0.5 for overall performance. The best results are shown in bold.**
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.995 | 0.917 | 0.912 | 0.941 |
 | **CST-YOLO** | 0.995 | **0.947** | 0.927 | **0.956** |
 
-**Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCD dataset. Results are APs for each blood cell
-type and mAP@0.5 for overall performance. The best results are shown in bold.** 
+**Table 2.3&nbsp;&nbsp;&nbsp;&nbsp;Performance comparison of YOLOv5x, YOLOv7 and CST-YOLO on the BCD dataset. Results are mAP@0.5 for each blood cell
+type and overall performance. The best results are shown in bold.** 
 | Model | WBCs | RBCs | Platelets | Overall |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.784 |
