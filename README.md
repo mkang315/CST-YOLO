@@ -135,10 +135,10 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method fo
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
 - *Nature* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing* in press (pp. 0000–0000) (IEEE, 2024).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing (ICIP)* in press (pp. 0000–0000) (IEEE, 2024).</br>
 
 - *Springer* Style</br>
-Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In 2024 IEEE International Conference on Image Processing, in press (pp. 0000–0000). IEEE, Piscataway (2024)</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In 2024 IEEE International Conference on Image Processing (ICIP), in press (pp. 0000–0000). IEEE, Piscataway (2024)</br>
 
 - Elsevier Reference Style</br>
 M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer, in: Proceedings of the IEEE International Conference on Image Processing (ICIP), 27–30 October 2024, Abu Dhabi, UAE, IEEE, Piscataway, 2024, in press (pp. 0000–0000).</br>
@@ -165,7 +165,7 @@ M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: a novel method for blood
   author = "Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.",
   title = "CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer",
   editor = "",
-  booktitle = "2024 IEEE International Conference on Image Processing",
+  booktitle = "2024 IEEE International Conference on Image Processing (ICIP)",
   series = "",
   volume = "",
   pages = "0000--0000",
