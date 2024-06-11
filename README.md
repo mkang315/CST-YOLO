@@ -152,10 +152,20 @@ M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: a novel method for blood
 ```
 ```
 @inproceedings{Kang24Cstyolo,
+  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Rapha{\"e}l C.-W. Phan",
+  title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
+  booktitle = "Proc. IEEE Int. Conf. Image Process. (ICIP)",
+  address = "Abu Dhabi, UAE, Oct. 27--30",
+  pages = "0000--0000",
+  year = "2024",
+}
+```
+```
+@inproceedings{Kang24Cstyolo,
   author = "Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.",
   title = "CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer",
   editor = "",
-  booktitle = "2024 IEEE International Conference on Image Processing, in press",
+  booktitle = "2024 IEEE International Conference on Image Processing",
   series = "",
   volume = "",
   pages = "0000--0000",
@@ -164,16 +174,6 @@ M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: a novel method for blood
   year = "2024",
   doi= "10.1109/ICIP49359.2024.00000000",
   url = "https://doi.org/10.1109/ICIP49359.2024.00000000"
-}
-```
-```
-@inproceedings{Kang24Cstyolo,
-  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Rapha{\"e}l C.-W. Phan",
-  title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
-  booktitle = "Proc. IEEE Int. Conf. Image Process. (ICIP)",
-  address = "Abu Dhabi, UAE, Oct. 27--30",
-  pages = "0000--0000",
-  year = "2024",
 }
 ```
 <sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file if applicable which defines bibliography/reference style. `Kang24Cstyolo` could be `b1`, `bib1`, or `ref1` when references appear in numbered style in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
