@@ -1,5 +1,5 @@
 # Official CST-YOLO
-This is the source code for the paper, "CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer", of which I am the first author.
+This is the source code for the paper titled "CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer" accepted by 2024 IEEE International Conference on Image Processing ([ICIP 2024](https://2024.ieeeicip.org)), of which I am the first author. This paper is available to download from [arXiv](https://arxiv.org/abs/2306.14590).
 
 ## Model
 The model configuration (i.e., network construction) file is cst-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/CST-YOLO/tree/main/cfg/training).
@@ -127,17 +127,56 @@ Below is one example of failure cases because there aren't any Grad-CAM heatmaps
 </p>
 
 ## Suggested Citation
-Our manuscript has been uploaded on [arXiv](https://arxiv.org/abs/2306.14590). Please cite our paper if you use code from this repository:
+Please cite our paper if you use code from this repository:
 > Plain Text
 
 - *IEEE* Style</br>
-M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer," arXiv:2306.14590 [cs.CV], Jun. 2023.</br>
+M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer," in *Proc. IEEE Int. Conf. Image Process. (ICIP)*, Abu Dhabi, UAE, Oct. 27–30, 2024, in press (pp. 0000–0000).</br>
+<sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
 - *Nature* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. Preprint at https://arxiv.org/abs/2306.14590 (2023).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing* in press (pp. 0000–0000) (IEEE, 2024).</br>
 
 - *Springer* Style</br>
-Kang, M., Ting, C.-M., Ting, F. F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. arXiv preprint [arXiv:2306.14590](https://arxiv.org/abs/2306.14590) (2023)</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In 2024 IEEE International Conference on Image Processing, in press (pp. 0000–0000). IEEE, Piscataway (2024)</br>
+
+- Elsevier Reference Style</br>
+M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer, in: Proceedings of the IEEE International Conference on Image Processing (ICIP), 27–30 October 2024, Abu Dhabi, UAE, IEEE, Piscataway, 2024, in press (pp. 0000–0000).</br>
+<sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
+
+> BibTeX Format</br>
+```
+\begin{thebibliography}{1}
+\bibitem{Kang24Cstyolo} M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer," in {\it Proc. IEEE Int. Conf. Image Process. (ICIP)}, Abu Dhabi, UAE, Oct. 27--30, 2024, in press.
+\end{thebibliography}
+```
+```
+@inproceedings{Kang24Cstyolo,
+  author = "Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.",
+  title = "CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer",
+  editor = "",
+  booktitle = "2024 IEEE International Conference on Image Processing, in press",
+  series = "",
+  volume = "",
+  pages = "0000--0000",
+  publisher = "IEEE",
+  address = "Piscataway",
+  year = "2024",
+  doi= "10.1109/ICIP49359.2024.00000000",
+  url = "https://doi.org/10.1109/ICIP49359.2024.00000000"
+}
+```
+```
+@inproceedings{Kang24Cstyolo,
+  author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Rapha{\"e}l C.-W. Phan",
+  title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
+  booktitle = "Proc. IEEE Int. Conf. Image Process. (ICIP)",
+  address = "Abu Dhabi, UAE, Oct. 27--30",
+  pages = "0000--0000",
+  year = "2024",
+}
+```
+<sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file if applicable which defines bibliography/reference style. `Kang24Cstyolo` could be `b1`, `bib1`, or `ref1` when references appear in numbered style in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
 
 ## License
 CST-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/CST-YOLO/blob/main/LICENSE) file for more information.
