@@ -69,7 +69,7 @@ type and overall performance. The best results are shown in bold.**
 | [RT-DETR-R50vd](https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch) | — | — | — | 0.784 |
 | [YOLOv5x](https://github.com/ultralytics/yolov5) | 0.820 | 0.857 | 0.975 | 0.884 |
 | [YOLOv7](https://github.com/WongKinYiu/yolov7) | 0.874 | 0.785 | 0.974 | 0.878 |
-| **CST-YOLO** | **0.899** | **0.857** | **0.978** | **0.911** |
+| **CST-YOLO** | **0.899** | 0.857 | **0.978** | **0.911** |
 
 ## Ablation Study
 The tables below show the effect on the performance of the proposed modules for the three blood cell datasets.
