@@ -131,14 +131,14 @@ Below is one example of failure cases because there aren't any Grad-CAM heatmaps
 Please cite our paper if you use code from this repository:
 > Plain Text
 
-- *IEEE* Style</br>
+- IEEE Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer," in *Proc. IEEE Int. Conf. Image Process. (ICIP)*, Abu Dhabi, UAE, Oct. 27–30, 2024, in press (pp. 0000–0000).</br>
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
-- *Nature* Style</br>
+- Nature Style</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing (ICIP)* in press (pp. 0000–0000) (IEEE, 2024).</br>
 
-- *Springer* Style</br>
+- Springer Style</br>
 Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In 2024 IEEE International Conference on Image Processing (ICIP), in press (pp. 0000–0000). IEEE, Piscataway (2024)</br>
 
 - Elsevier Reference Style</br>
