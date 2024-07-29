@@ -4,11 +4,10 @@ This is the source code for the paper titled "CST-YOLO: A Novel Method for Blood
 ## Model
 The CNN-Swin Transformer You Only Look Once (CST-YOLO) model configuration (i.e., network construction) file is cst-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/CST-YOLO/tree/main/cfg/training).
 
-Recommended dependencies:
+#### Installation
+Install requirements.txt with recommended dependencies Python >= 3.8 environment including Torch <= 1.7.1 and CUDA <= 11.1:
 ```
-Python <= 3.8
-Torch <= 1.7.1
-CUDA <= 11.1
+pip install -r requirements.txt
 ```
 
 #### Training
