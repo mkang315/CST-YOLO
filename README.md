@@ -126,18 +126,18 @@ Below is one example of failure cases because there aren't any Grad-CAM heatmaps
 <b>Fig. 2 Example of failure cases. The heat maps of (b) WBCs, and (c) RBCs are generated through inputting the original blood cell image (a) BloodImage_00340.jpg.</b></figcaption>
 </p>
 -->
-## Suggested Citation
-Please cite our paper if you use code from this repository:
+## Referencing Guide
+Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
 > Plain Text
 
-- IEEE Style</br>
+- IEEE Reference Style</br>
 M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer," in *Proc. IEEE Int. Conf. Image Process. (ICIP)*, Abu Dhabi, UAE, Oct. 27–30, 2024, in press (pp. 000–000).</br>
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & day(s) are optional.</sup>
 
-- Nature Style</br>
+- Nature Referencing Style</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing (ICIP)* in press (000–000) (IEEE, 2024).</br>
 
-- Springer Style</br>
+- Springer Reference Style</br>
 Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In: 2024 IEEE International Conference on Image Processing (ICIP), in press (000–000). IEEE, Piscataway (2024)</br>
 
 - Elsevier Numbered Style</br>
