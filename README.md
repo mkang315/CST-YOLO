@@ -176,8 +176,8 @@ Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2024. CST-YOLO: A novel method
   publisher = "IEEE",
   address = "Piscataway",
   year = "2024",
-  doi= "10.1109/ICIP49359.2024.00000000",
-  url = "https://doi.org/10.1109/ICIP49359.2024.00000000"
+  doi= "10.1109/ICIP51287.2024.10647618",
+  url = "https://doi.org/10.1109/ICIP51287.2024.10647618"
 }
 ```
 <sup>**NOTE:** Please remove some optional *BibTeX* fields, for example, `series`, `volume`, `address`, `url` and so on, while the *LaTeX* compiler produces an error. Author names may be manually modified if not automatically abbreviated by the compiler under the control of the .bst file if applicable which defines bibliography/reference style. `Kang24Cstyolo` could be `b1`, `bib1`, or `ref1` when references appear in numbered style in which they are cited. The quotation mark pair `""` in the field could be replaced by the brace `{}`. </sup>
