@@ -138,7 +138,7 @@ M. Kang, C.-M. Ting, F. F. Ting, and R. C.-W. Phan, "Cst-yolo: A novel method fo
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *2024 IEEE International Conference on Image Processing (ICIP)* 3024–3029 (IEEE, 2024).</br>
 
 - Springer Reference Style</br>
-Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In: 2024 IEEE International Conference on Image Processing (ICIP), 3024–3029. IEEE, Piscataway (2024)</br>
+Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W.: CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In: 2024 IEEE International Conference on Image Processing (ICIP), pp. 3024–3029. IEEE, Piscataway (2024)</br>
 
 - Elsevier Numbered Style</br>
 M. Kang, C.-M. Ting, F.F. Ting, R.C.-W. Phan, CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer, in: Proceedings of the IEEE International Conference on Image Processing (ICIP), 27–30 October 2024, Abu Dhabi, UAE, IEEE, Piscataway, New York, USA, 2024, pp. 3024–3029.</br>
