@@ -167,7 +167,7 @@ Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2024. CST-YOLO: A novel method
 ```
 @inproceedings{Kang24Cstyolo,
   author = "Kang, Ming and Ting, Chee-Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W.",
-  title = "CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer",
+  title = "{CST-YOLO}: a novel method for blood cell detection based on improved {YOLO}v7 and {CNN}-swin transformer",
   editor = "",
   booktitle = "2024 IEEE International Conference on Image Processing (ICIP)",
   series = "",
