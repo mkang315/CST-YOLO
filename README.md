@@ -150,7 +150,8 @@ Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2024. CST-YOLO: A novel method
 
 - APA7 (author–date) Style</br>
 Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2024). CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-swin transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)* (pp. 3024–3029). IEEE. https://doi.org/10.1109/ICIP51287.2024.10647618</br>
-</br>
+
+
 > BibTeX Format</br>
 ```
 \begin{thebibliography}{1}
