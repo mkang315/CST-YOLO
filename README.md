@@ -169,7 +169,7 @@ Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2024). CST-YOLO: A novel met
   booktitle = "Proc. IEEE Int. Conf. Image Process. (ICIP)",
   address = "Abu Dhabi, UAE, Oct. 27--30",
   pages = "3024--3029",
-  year = "2024",
+  year = "2024"
 }
 ```
 ```
