@@ -167,7 +167,7 @@ Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2024). CST-YOLO: A novel met
   author = "Ming Kang and Chee-Ming Ting and Fung Fung Ting and Rapha{\"e}l C.-W. Phan",
   title = "Rcs-yolo: A fast and high-accuracy object detector for brain tumor detection",
   booktitle = "Proc. IEEE Int. Conf. Image Process. (ICIP)",
-  % booktitle = ICIP %% IEEE Full Name Reference Style
+  % booktitle = ICIP, %% IEEE Full Name Reference Style
   address = "Abu Dhabi, UAE, Oct. 27--30",
   pages = "3024--3029",
   year = "2024"
