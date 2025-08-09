@@ -6,7 +6,7 @@
 <a href="https://arxiv.org/abs/2306.14590"><img alt="Build" src="https://img.shields.io/badge/arXiv%20paper-2306.14590-b31b1b.svg"></a>
 </div>
 
-## Introduction
+## Description
 This is the source code for the paper titled "CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer" accepted by and presented orally at the 2024 IEEE International Conference on Image Processing ([ICIP 2024](https://2024.ieeeicip.org)), of which I am the first author. This paper is available to download from [IEEE Xplore](https://ieeexplore.ieee.org/document/10647618) or [arXiv](https://arxiv.org/abs/2306.14590).
 
 ## Model
