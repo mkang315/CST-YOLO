@@ -54,6 +54,8 @@ Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Cst-yolo: A 
 <sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including *CVPR*, *ICCV*, and *WACV*, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.".</sup></br>
 &nbsp;- **IJCAI Full Name Variation**</br>
 \[Kang *et al.*, 2024\] Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing*, pages 3024–3029, Piscataway, NJ, October 2024. IEEE.</br>
+&nbsp;- **ACL Full Name Variation**</br>
+Ming Kang, Chee-Ming Ting, Fung Fung Ting, and Raphaël C.-W. Phan. 2024. Cst-yolo: A novel method for blood cell detection based on improved yolov7 and cnn-swin transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing*, pages 3024–3029, Piscataway, NJ. IEEE.</br>
 
 - **Nature Referencing Style**</br>
 Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. CST-YOLO: a novel method for blood cell detection based on improved YOLOv7 and CNN-swin Transformer. In *2024 IEEE International Conference on Image Processing (ICIP)* 3024–3029 (IEEE, 2024).</br>
@@ -72,7 +74,7 @@ Kang, M., Ting, C.-M., Ting, F.F., Phan, R.C.-W., 2024. CST-YOLO: a novel method
 
 - **APA7 (Author–Date) Style**</br>
 Kang, M., Ting, C.-M., Ting, F.F., & Phan, R.C.-W. (2024). CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-swin Transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)* (pp. 3024–3029). IEEE. https://doi.org/10.1109/ICIP51287.2024.10647618</br>
-&nbsp;- **ICML (Author–Date) Variation**</br>
+&nbsp;- **ICML (Author–Year) Variation**</br>
 Kang, M., Ting, C.-M., Ting, F.F., and Phan, R.C.-W. CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-swin Transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)*, pp. 3024–3029, Piscataway, NJ, 2024. IEEE.</br>
 <sup>**NOTE:** For *NeurIPS* and *ICLR*, any reference/citation style is acceptable as long as it is used consistently.</sup>
 
