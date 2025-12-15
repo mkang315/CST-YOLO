@@ -7,7 +7,7 @@
 </div>
 
 ## Description
-This is the source code for the paper titled "CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer" accepted by and presented orally at the 2024 IEEE International Conference on Image Processing ([ICIP 2024](https://2024.ieeeicip.org)), of which I am the first author. This paper is available to download from [IEEE Xplore](https://ieeexplore.ieee.org/document/10647618) or [arXiv](https://arxiv.org/abs/2306.14590).
+This is the source code for the paper titled "CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer" accepted by and [presented orally](https://cmsworkshops.com/ICIP2024/view_paper.php?PaperNum=2542&bare=1) at the 2024 IEEE International Conference on Image Processing ([ICIP 2024](https://2024.ieeeicip.org)), of which I am the first author. This paper is available to download from [IEEE Xplore](https://ieeexplore.ieee.org/document/10647618) or [arXiv](https://arxiv.org/abs/2306.14590).
 
 ## Model
 The CNN-Swin Transformer You Only Look Once (CST-YOLO) model configuration (i.e., network construction) file is cst-yolo.yaml in the directory [./cfg/training/](https://github.com/mkang315/CST-YOLO/tree/main/cfg/training).
@@ -80,6 +80,8 @@ Kang M, Ting C-M, Ting FF, Phan RC-W. CST-YOLO: a novel method for blood cell de
 
 - **APA7 (Author–Date) Style**</br>
 Kang, M., Ting, C.-M., Ting, F. F., & Phan, R. C.-W. (2024). CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-Swin Transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)* (pp. 3024–3029). IEEE. https://doi.org/10.1109/ICIP51287.2024.10647618</br>
+&nbsp;- **AAAI (Author–Year) Variation**</br>
+Kang, M.; Ting, C.-M.; Ting, F. F.; and Phan, R. C.-W. 2024. CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)*, 3024–3029. Piscataway, NJ: IEEE.</br>
 &nbsp;- **ICML (Author–Year) Variation**</br>
 Kang, M., Ting, C.-M., Ting, F. F., and Phan, R. C.-W. CST-YOLO: A novel method for blood cell detection based on improved YOLOv7 and CNN-swin Transformer. In *Proceedings of the 2024 IEEE International Conference on Image Processing (ICIP)*, pp. 3024–3029, Piscataway, NJ, 2024. IEEE.</br>
 <sup>**NOTE:** For **NeurIPS** and **ICLR**, any reference/citation style is acceptable as long as it is used consistently. The sample of references in Formatting Instructions For NeurIPS almost follows APA7 (author–date) style and that in Formatting Instructions For ICLR Conference Submissions is similar to IJCAI full name-year variation.</sup>
