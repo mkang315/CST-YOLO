@@ -756,12 +756,29 @@ class ComputeLossOTA:
             fg_mask_inboxes = matching_matrix.sum(0) > 0.0
             matched_gt_inds = matching_matrix[:, fg_mask_inboxes].argmax(0)
         
+            # Ensure all tensors are on the same device as fg_mask_inboxes
+            device = fg_mask_inboxes.device
+            from_which_layer = from_which_layer.to(device)
+            all_b         = all_b.to(device)
+            all_a         = all_a.to(device)
+            all_gj        = all_gj.to(device)
+            all_gi        = all_gi.to(device)
+            all_anch      = all_anch.to(device)
+            
+            # Now perform the indexing
             from_which_layer = from_which_layer[fg_mask_inboxes]
-            all_b = all_b[fg_mask_inboxes]
-            all_a = all_a[fg_mask_inboxes]
-            all_gj = all_gj[fg_mask_inboxes]
-            all_gi = all_gi[fg_mask_inboxes]
-            all_anch = all_anch[fg_mask_inboxes]
+            all_b           = all_b[fg_mask_inboxes]
+            all_a           = all_a[fg_mask_inboxes]
+            all_gj          = all_gj[fg_mask_inboxes]
+            all_gi          = all_gi[fg_mask_inboxes]
+            all_anch        = all_anch[fg_mask_inboxes]
+            
+            #from_which_layer = from_which_layer[fg_mask_inboxes]
+            #all_b = all_b[fg_mask_inboxes]
+            #all_a = all_a[fg_mask_inboxes]
+            #all_gj = all_gj[fg_mask_inboxes]
+            #all_gi = all_gi[fg_mask_inboxes]
+            #all_anch = all_anch[fg_mask_inboxes]
         
             this_target = this_target[matched_gt_inds]
         
